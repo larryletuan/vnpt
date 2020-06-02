@@ -18,6 +18,14 @@ pipeline
 		}
 	 
 	   }
+	   stage('Thu test') 
+	     {
+		  steps
+		   {
+		    sh 'mvn test' 
+		   }	 
+		 }
   
-  }
+	}
+	
   }
